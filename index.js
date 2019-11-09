@@ -23,7 +23,7 @@ async function doIt() {
       let b = execSync(`cd "${repo.repoPath}" & git pull & :`, options).toString();
       if(a !== b){
         // something updated between pulls so restart app
-        execSync(`pm2 restart "${repo.pm2Name}" & :`, silent);
+        execSync(`pm2 restart "${repo.pm2Name}" & :`, options);
         console.log(`restarting ${repo.pm2Name}`)
       }
     }

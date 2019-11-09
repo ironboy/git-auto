@@ -1,0 +1,1 @@
+A minimal application for watching git-repo-folders and pulling changes automatically from them, then restarting pm2 apps.

@@ -1,0 +1,6 @@
+[
+  {
+    "repoPath": "/var/www/my-app",
+    "pm2Name": "my-app"
+  }
+]
